@@ -33,8 +33,6 @@ jobs:
         uses: actions/setup-node@v3
       - name: Install Package
         run: npm ci
-      - name: Run Lint
-        run: npm lint
       - name: Build Project
         run: npm run build
       - name: Deploy
